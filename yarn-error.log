@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\sanee\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\Git\cmd;C:\Users\sanee\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\Android\Android Studio1;C:\Users\sanee\AppData\Local\Android\Sdk;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;"C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\Git\cmd;C:\Users\sanee\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\Android\Android Studio1;C:\Users\sanee\AppData\Local\Android\Sdk;C:\Program Files\nodejs\;C:\Users\USERNAME\AppData\Roaming\npm";C:\Users\sanee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sanee\AppData\Local\Android\Sdk\platform-tools;C:\Users\sanee\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui/icons/-/icons-3.0.2.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\sanee\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141390:19)
+      at Object.onceWrapper (events.js:519:28)
+      at ClientRequest.emit (events.js:400:28)
+      at TLSSocket.emitRequestTimeout (_http_client.js:790:9)
+      at Object.onceWrapper (events.js:519:28)
+      at TLSSocket.emit (events.js:412:35)
+      at TLSSocket.Socket._onTimeout (net.js:495:8)
+      at listOnTimeout (internal/timers.js:557:17)
+      at processTimers (internal/timers.js:500:7)
+
+npm manifest: 
+  {
+    "name": "movies-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@material-ui/core": "^3.9.4",
+      "@material-ui/icons": "^3.0.2",
+      "react": "^16.8.0",
+      "react-dom": "^16.8.0",
+      "react-modal": "^3.12.1",
+      "react-router-dom": "^4.3.1",
+      "react-scripts": "1.1.5",
+      "react-youtube": "^7.13.1",
+      "typeface-roboto": "0.0.54"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "proxy": "http://localhost:8085"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
